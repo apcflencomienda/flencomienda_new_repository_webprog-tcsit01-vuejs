@@ -1,0 +1,14 @@
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<script>
+  const app = Vue.createApp({
+   data() {
+    return {
+     message: "Hello World!"
+    }
+   }
+  })
+  
+  app.mount('#app')
+
+</script>
